@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.eb2a58f8.css",
-    "main.js": "/portifolio/static/js/main.ef8c1202.js",
+    "main.css": "/portifolio/static/css/main.07453f27.css",
+    "main.js": "/portifolio/static/js/main.e07d07e7.js",
     "static/js/453.0a36081d.chunk.js": "/portifolio/static/js/453.0a36081d.chunk.js",
-    "static/media/introducion.png": "/portifolio/static/media/introducion.faf68e61472bcddac669.png",
+    "static/media/arvore.png": "/portifolio/static/media/arvore.7ee839847ab0e4f88f88.png",
+    "static/media/nuvem.png": "/portifolio/static/media/nuvem.5791124dfb80a2482c2e.png",
     "static/media/Potioning.png": "/portifolio/static/media/Potioning.034fa9cf40d10e69bd38.png",
     "static/media/Solis.png": "/portifolio/static/media/Solis.1d4ff177934cd2fa2778.png",
     "static/media/MonsterDelivery.png": "/portifolio/static/media/MonsterDelivery.a052c5a6bac4496f281a.png",
     "static/media/BetweenDeath.png": "/portifolio/static/media/BetweenDeath.7ef7fc73919a9a45e505.png",
     "static/media/BroccolisAscension.png": "/portifolio/static/media/BroccolisAscension.5622013c8eb61cf74fd5.png",
     "static/media/image-loading.png": "/portifolio/static/media/image-loading.1401a05d1ca414d9401a.png",
+    "static/media/folha.png": "/portifolio/static/media/folha.28121cc6f3c91068e605.png",
     "static/media/TooMuchWork.png": "/portifolio/static/media/TooMuchWork.6b6c9d7ef1f0368dc58a.png",
     "static/media/linkedin-footer.svg": "/portifolio/static/media/linkedin-footer.bfbc684db8c924a726e460e2b0897489.svg",
     "static/media/linkedin.svg": "/portifolio/static/media/linkedin.1e1954666d28adeeb5b7bac9dc0b4abe.svg",
@@ -31,12 +33,12 @@
     "static/media/win.svg": "/portifolio/static/media/win.c14caeb9498605d1e706d1ed0787c434.svg",
     "index.html": "/portifolio/index.html",
     "static/media/copy.svg": "/portifolio/static/media/copy.5c799346cd090b48a51dd8af2c1c1c5a.svg",
-    "main.eb2a58f8.css.map": "/portifolio/static/css/main.eb2a58f8.css.map",
-    "main.ef8c1202.js.map": "/portifolio/static/js/main.ef8c1202.js.map",
+    "main.07453f27.css.map": "/portifolio/static/css/main.07453f27.css.map",
+    "main.e07d07e7.js.map": "/portifolio/static/js/main.e07d07e7.js.map",
     "453.0a36081d.chunk.js.map": "/portifolio/static/js/453.0a36081d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb2a58f8.css",
-    "static/js/main.ef8c1202.js"
+    "static/css/main.07453f27.css",
+    "static/js/main.e07d07e7.js"
   ]
 }
