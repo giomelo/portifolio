@@ -3,7 +3,7 @@ import useTexts from '../../../hooks/useTexts';
 
 import imageSolis from '../../../assets/img/project/Solis.png';
 import imageBroccolis from '../../../assets/img/project/BroccolisAscension.png';
-import imageMonsterDelivery from '../../../assets/img/project/MonsterDelivery.png';
+import imageBetweenDeath from '../../../assets/img/project/BetweenDeath.png';
 import iconWin from '../../../assets/icon/win.svg';
 import iconLinux from '../../../assets/icon/linux.svg';
 import iconAndroid from '../../../assets/icon/android.svg';
@@ -35,7 +35,7 @@ const Project = () => {
         {
             id: 2,
             title: 'Broccoli’s Ascension',
-            category: 'Role Playing',
+            category: 'RPG',
             description: texts.Description_Broccoli_Project,
             imageUrl: imageBroccolis,
             projectUrl: 'https://giovana-melo.itch.io/brocolli', 
@@ -43,12 +43,12 @@ const Project = () => {
         },
         {
             id: 3,
-            title: 'Monster Delivery',
-            category: 'Action',
-            description: texts.Description_MonsterDelivery_Project,
-            imageUrl: imageMonsterDelivery,
-            projectUrl: 'https://giovana-melo.itch.io/monster-delivery',
-            tags: ['Unity', 'Android']
+            title: 'Between Death',
+            category: 'RPG',
+            description: texts.Description_BetweenDeath_Project,
+            imageUrl: imageBetweenDeath,
+            projectUrl: 'https://buff-buff-studios.itch.io/between-death',
+            tags: ['Unity', 'Windows']
         },
     ];
 

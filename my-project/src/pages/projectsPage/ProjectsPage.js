@@ -11,19 +11,20 @@ import imageIntroducion from '../../assets/img/project/introducion.png';
 
 // Imagem dos projetos
 import imageBroccolis from '../../assets/img/project/BroccolisAscension.png';
-// import imageEducacaoTransito from '../../assets/img/project/EducacaoTransito.png';
-// import imageLetalShot from '../../assets/img/project/LetalShot.png';
-// import imageLevelDesignProject from '../../assets/img/project/LevelDesignProject.png';
-// import imageMonsterDelivery from '../../assets/img/project/MonsterDelivery.png';
-// import imagePotioning from '../../assets/img/project/Potioning.png';
+import imageMonsterDelivery from '../../assets/img/project/MonsterDelivery.png';
+import imagePotioning from '../../assets/img/project/Potioning.png';
 import imageSolis from '../../assets/img/project/Solis.png';
-// import imageSustainability from '../../assets/img/project/Sustainability.png';
-// import imageTooMuchWork from '../../assets/img/project/TooMuchWork.png';
+import imageTooMuchWork from '../../assets/img/project/TooMuchWork.png';
+import imageBetweenDeath from '../../assets/img/project/BetweenDeath.png';
 
 
 const allProjectsData = [
-    { id: 1, path: 'https://giovana-melo.itch.io/brocolli', title: "Broccoli's Ascension", category: 'GAMinG Jam 2021', image: imageBroccolis, tags: ['Construct', 'Play in Browser', 'Pixel Art', 'Retro'], type: 'personal' },
-    { id: 1, path: 'https://solis.buffbuffstudios.com/', title: "Solis", category: 'Buff Buff Studio', image: imageSolis, tags: ['Unity', 'Windows', 'Puzzle', 'Platformer'], type: 'professional' },
+    { id: 1, path: 'https://giovana-melo.itch.io/brocolli', title: "Broccoli's Ascension", category: 'GAMinG Jam 2021', image: imageBroccolis, tags: ['Construct', 'Play in Browser', 'Pixel Art', 'Retro'], type: 'personal'},
+    { id: 2, path: 'https://solis.buffbuffstudios.com/', title: "Solis", category: 'Buff Buff Studios', image: imageSolis, tags: ['Unity', 'Windows', 'Puzzle', 'Platformer'], type: 'personal'},
+    { id: 3, path: 'https://buff-buff-studios.itch.io/between-death', title: "BetweenDeath", category: 'Buff Buff Studios', image: imageBetweenDeath, tags: ['Unity', 'Windows', 'RPG'], type: 'personal' },
+    { id: 4, path: 'https://giovana-melo.itch.io/potioning', title: "Potioning", category: 'Indie', image: imagePotioning, tags: ['Unity', 'Windows', 'Build', 'Nature'], type: 'personal'},
+    { id: 5, path: 'https://giovana-melo.itch.io/monster-delivery', title: "Monster Delivery", category: 'Indie', image: imageMonsterDelivery, tags: ['Unity', 'Android', 'Runner Game', 'Action'], type: 'personal'},
+    { id: 6, path: 'https://giovana-melo.itch.io/too-much-work-for-only-one-godess', title: "Too Much Work for Only One Goddess", category: 'Indie', image: imageTooMuchWork, tags: ['Construct', 'Play in Browser', 'Pixel Art', 'Simulator'], type: 'personal' },
 ];
 
 const ProjectsPage = () => {

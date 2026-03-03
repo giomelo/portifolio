@@ -1,7 +1,7 @@
 .btn-social {
     display: flex;
     align-items: center;
-    transition: color 0.3s ease, transform 0.2s ease, opacity 0.3s ease;
+    transition: color 0.3s ease, transform 0.9s ease, opacity 0.3s ease;
     height: 50px;
 }
 

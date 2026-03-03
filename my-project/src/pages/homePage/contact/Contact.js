@@ -42,8 +42,8 @@ const Contact = () => {
         e.preventDefault();
 
         emailjs
-            // modelo => ('service', 'template', e.target, 'key')
-            .sendForm('', '', e.target, '')
+            // modelo => ('service', 'template', e.target, 'public key')
+            .sendForm('service_1lmd13g', 'template_bv1o5d9', e.target, 'O7TcwhKur6vCProcA')
             .then((result) => {
                 console.log('Email enviado com sucesso:', result.text);
                 setSendStatus('Mensagem Enviada');

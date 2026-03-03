@@ -58,7 +58,7 @@ const Header = () => {
 
     return (
         <header className={`header ${!isPortfolioPage ? 'header-solid' : (scrolled ? 'scrolled' : '')}`}>
-            <a href="/portifolio" className="header-logo">Giomelo</a>
+            <a href="/portifolio" className="header-logo">Portfolio</a>
 
             {isMobile ? (
                 <>

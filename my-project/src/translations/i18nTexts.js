@@ -12,7 +12,7 @@ const i18nTexts = {
         Section_Project: 'Projetos',
         Description_Solis_Project: 'Solis é um emocionante jogo cooperativo de plataforma e quebra-cabeças para dois jogadores.',
         Description_Broccoli_Project: "Broccoli's Ascension é uma aventura de um brocolis em período de germinação.",
-        Description_MonsterDelivery_Project: 'Jogue como dois irmãos monstros entregando encomendas em suas respectivas casas coloridas.',
+        Description_BetweenDeath_Project: 'Explore um universo onde a linha entre a vida e a morte se torna tênue e descubra um mundo envolto em mistério e trevas.',
         Button_View_Project: 'Ver Mais',
 
         Section_About: 'Sobre Mim',
@@ -88,7 +88,7 @@ const i18nTexts = {
         Section_Project: 'Projects',
         Description_Solis_Project: 'Solis is an exciting cooperative platform and puzzle game for two players.',
         Description_Broccoli_Project: "Broccoli's Ascension is an adventure of a broccoli in its germination period.",
-        Description_MonsterDelivery_Project: 'Play as two monster siblings delivering packages to their respective colorful houses.',
+        Description_BetweenDeath_Project: 'Dive into a universe where the line between life and death blurs, and uncover a world steeped in mystery and darkness.',
         Button_View_Project: 'View More',
 
         Section_About: 'About Me',
