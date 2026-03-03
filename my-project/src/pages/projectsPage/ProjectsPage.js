@@ -4,8 +4,9 @@ import './ProjectsPage.css';
 import useTexts from '../../hooks/useTexts';
 import Header from '../../components/header/Header';
 import Footer from "../../components/footer/Footer";
+import PixelArtScene from '../../components/wallpaper/PixelArtScene';
 
-import imageIntroducion from '../../assets/img/project/introducion.png';
+// import imageIntroducion from '../../assets/img/project/introducion.png';
 
 // import iconLink from '../../assets/icon/link.svg';
 
@@ -36,16 +37,7 @@ const ProjectsPage = () => {
         <>
             <Header />
             <div className="section-projectsAll">
-                <div className="image-panel-projectsAll">
-                    <div className="projects-bg-image">
-                        <img src={imageIntroducion} alt="Background pattern" />
-                    </div>
-                    <div className="projects-text-content">
-                        <h1 className="projects-title">{texts.Game_Projects}</h1>
-                        <p className="projects-subtitle">{texts.GameText_Projects}</p>
-                    </div>
-                </div>
-
+                <PixelArtScene/>
                 {/* Seção Profissional */}
                 <div className="header-projectsAll">
                     <h1 className="header-title-projectsAll">{texts.TitlePage_ProjectsProfessional}</h1>
