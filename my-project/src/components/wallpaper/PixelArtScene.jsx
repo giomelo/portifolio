@@ -66,25 +66,25 @@ const PixelArtScene = () => {
             backgroundImage: `url(${imageCloud})`,
             zIndex: 1,
             }}
-            animate={{ backgroundPositionX: ['0px', '108%'] }}
+            animate={{ backgroundPositionX: ['0px', '-1920px'] }}
             transition={{
-            repeat: Infinity,
-            duration: 60,
-            ease: "linear",
+                repeat: Infinity,
+                duration: 80,
+                ease: "linear",
             }}
         />
 
         {/* CAMADA 2: Árvore */}
         <div
             style={{
-            position: 'absolute',
-            right: '2%',
-            marginRight: '-60px',
-            marginBottom: '-8px',
-            bottom: '0',
-            zIndex: 2,
-            width: '350px',
-            height: 'auto',
+                position: 'absolute',
+                right: '2%',
+                marginRight: '-60px',
+                marginBottom: '-8px',
+                bottom: '0',
+                zIndex: 2,
+                width: '350px',
+                height: 'auto',
             }}
         >
             <img src={imageTree} alt="Tree" style={{ width: '100%', display: 'block' }} />
@@ -119,10 +119,10 @@ const PixelArtScene = () => {
         <div style={overlayStyle} />
         <div style={contentStyle}>
             <h1 style={{ fontSize: '6rem', marginBottom: '10px', textShadow: '4px 4px #000' }}>
-            {texts.Game_Projects}
+                {texts.Game_Projects}
             </h1>
             <p style={{ fontSize: '1.8rem', textShadow: '2px 2px #000' }}>
-            {texts.GameText_Projects}
+                {texts.GameText_Projects}
             </p>
         </div>
         </div>
