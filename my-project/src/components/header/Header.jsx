@@ -63,7 +63,7 @@ const Header = () => {
     };
 
     const headerClassName = `header ${
-        !isPortfolioPage 
+        (!isPortfolioPage && !isMobile)
         ? 'header-solid' 
         : (scrolled && !isMobile ? 'scrolled' : '')
     }`;
