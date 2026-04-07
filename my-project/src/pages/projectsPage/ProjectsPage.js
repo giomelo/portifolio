@@ -27,7 +27,7 @@ import imageRunnerBelga from '../../assets/img/project/runnerBelga.webp';
 import imageMicheleAR from '../../assets/img/project/micheleAR.png';
 import imageAtlasCNT from '../../assets/img/project/atlasCNT.png';
 import imageScafom from '../../assets/img/project/scafom.png';
-import imageNr35 from '../../assets/img/project/nr35.png';
+// import imageNr35 from '../../assets/img/project/nr35.png';
 
 export const getAllProjectsData = (texts) => [
     // PROJETOS PESSOAIS
@@ -75,21 +75,21 @@ export const getAllProjectsData = (texts) => [
         gallery: [
             { type: 'video', url: 'https://drive.google.com/file/d/1FnZvzpkiSfUBc5A73RCPHHIFy2Gx4zP_/view'},
         ],
-        description: texts.Description_AtlasCNT_Projects, tags: ['AR',  'VR','3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-aumentada/', type: 'professional'
+        description: texts.Description_AtlasCNT_Projects, tags: ['AR', 'VR', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-aumentada/', type: 'professional'
     },
     { id: 13, title: "Scafom-rux", category: 'RD3 Digital', image: imageScafom, 
         gallery: [
             { type: 'video', url: 'https://drive.google.com/file/d/1Z6pFiXeMVlohOvQ4GYQybx4Pc2RFVMFl/view'},
             { type: 'image', url: ScafomProject1},
         ],
-        description: texts.Description_Scafom_Projects, tags: ['VR', 'AR','3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-virtual/', type: 'professional'
+        description: texts.Description_Scafom_Projects, tags: ['AR', 'VR', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-virtual/', type: 'professional'
     },
-    { id: 14, title: "Nr35", category: 'RD3 Digital', image: imageNr35, 
-        gallery: [
-            { type: 'image', url: ScafomProject1},
-        ],
-        description: texts.Description_Nr35_Projects, tags: ['VR', 'AR','3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-virtual/', type: 'professional'
-    },
+    // { id: 14, title: "Simulador NR35", category: 'RD3 Digital', image: imageNr35, 
+    //     gallery: [
+    //         { type: 'image', url: ScafomProject1},
+    //     ],
+    //     description: texts.Description_Nr35_Projects, tags: ['AR', 'VR', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-virtual/', type: 'professional'
+    // },
 ];
 
 const ProjectsPage = () => {
