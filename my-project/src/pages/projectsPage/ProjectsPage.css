@@ -430,16 +430,16 @@ body.body-no-scroll {
     }
 
     .modal-project-title {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         margin: 5px 0 5px 0;
         color: #fff;
         text-align: center;
     }
 
     .modal-project-description {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         line-height: 1.7;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         color: #e6e9ec;
         text-align: justify;
         hyphens: auto;
@@ -498,7 +498,7 @@ body.body-no-scroll {
 
     .modal-main-image {
         width: auto;
-        height: 28vh;
+        height: 25vh;
         border: none;
         object-fit: cover;
     }
