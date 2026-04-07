@@ -29,7 +29,7 @@ const Intro = () => {
                         <p className="text-profile-home">{texts.TextProfile_Intro}</p>
                         <p className="text-profile-home-extra">{texts.TextProfile_Intro_Extra}</p>
                         <div className="buttons-home">
-                            <ButtonSimple height="40px" text={texts.TextButtonCurriculum_Intro} width="150px" borderRadius="12px" target="_blank" rel="noopener noreferrer" alt="Botão de Curriculo"/>
+                            <ButtonSimple height="40px" text={texts.TextButtonCurriculum_Intro} width="150px" borderRadius="12px" href="https://drive.google.com/file/d/1s7orVqwT0Sw4-qH8A2ZUXHBABKM996r8/view" target="_blank" rel="noopener noreferrer" alt="Botão de Curriculo" />
                              <div className="redeSocial-home">
                                 <ButtonSocial height={"38px"} width={"38px"} icon={iconLinkedin} alt="Botão Linkedin" href="https://www.linkedin.com/in/giovana-melo-a3771a200/"/>
                                 <ButtonSocial height={"38px"} width={"38px"} icon={iconGithub} alt="Botão github" href="https://github.com/giomelo"/>

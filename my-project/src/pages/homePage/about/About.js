@@ -1,7 +1,7 @@
 import './About.css';
 import useTexts from '../../../hooks/useTexts';
 
-import imageAbout from '../../../assets/img/profile-about.png';
+import imageAbout from '../../../assets/img/profile-about.jpeg';
 import iconAchievement from '../../../assets/icon/achievement.svg';
 
 const About = () => {

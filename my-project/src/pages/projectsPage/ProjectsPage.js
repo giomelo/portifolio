@@ -10,6 +10,8 @@ import PixelArtScene from '../../components/wallpaper/PixelArtScene';
 import iconShare from '../../assets/icon/shared.svg'
 import TransitandoLegalProject1 from '../../assets/img/project/transitandoLegal/page1.webp';
 import TransitandoLegalProject2 from '../../assets/img/project/transitandoLegal/page2.webp';
+import Nr35Project1 from '../../assets/img/project/nr35/page1.jpeg';
+
 
 // Imagens dos projetos
 import imageBroccolis from '../../assets/img/project/BroccolisAscension.png';
@@ -25,6 +27,7 @@ import imageRunnerBelga from '../../assets/img/project/runnerBelga.webp';
 import imageMicheleAR from '../../assets/img/project/micheleAR.png';
 import imageAtlasCNT from '../../assets/img/project/atlasCNT.png';
 import imageScafom from '../../assets/img/project/scafom.png';
+import imageNr35 from '../../assets/img/project/nr35.png';
 
 export const getAllProjectsData = (texts) => [
     // PROJETOS PESSOAIS
@@ -74,11 +77,17 @@ export const getAllProjectsData = (texts) => [
         ],
         description: texts.Description_AtlasCNT_Projects, tags: ['RA', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-aumentada/', type: 'professional'
     },
-    { id: 13, title: "Scafom", category: 'RD3 Digital', image: imageScafom, 
+    { id: 13, title: "Scafom-rux", category: 'RD3 Digital', image: imageScafom, 
         gallery: [
             { type: 'video', url: 'https://drive.google.com/file/d/1Z6pFiXeMVlohOvQ4GYQybx4Pc2RFVMFl/view'},
         ],
         description: texts.Description_Scafom_Projects, tags: ['RV', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-virtual/', type: 'professional'
+    },
+    { id: 14, title: "Nr35", category: 'RD3 Digital', image: imageNr35, 
+        gallery: [
+            { type: 'image', url: Nr35Project1},
+        ],
+        description: texts.Description_Nr35_Projects, tags: ['RV', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-virtual/', type: 'professional'
     },
 ];
 

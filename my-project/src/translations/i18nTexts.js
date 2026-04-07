@@ -16,7 +16,7 @@ const i18nTexts = {
         Button_View_Project: 'Ver Mais',
 
         Section_About: 'Sobre Mim',
-        TextProfile_01_About: 'Sou formada em Jogos Digitais pela PUC Minas e desde pequena sou apaixonada pela criação de jogos, toda a psicologia envolvida e inteligência artificial. Já atuei em diversos tipos jogos e projetos, desde a prototipagem até a finalização, com maior experiência em jogos sérios e simulações. Meu foco é na programação dede sistemas de gameplay e ferramentas, com o intuito de facilitar tarefas mais repetitivas e trabalhosas.',
+        TextProfile_01_About: 'Sou formada em Jogos Digitais pela PUC Minas e desde pequena sou apaixonada pela criação de jogos, toda a psicologia envolvida e inteligência artificial. Já atuei em diversos tipos jogos e projetos, desde a prototipagem até a finalização, com maior experiência em jogos sérios e simulações. Meu foco é na programação de sistemas de gameplay e ferramentas, com o intuito de facilitar tarefas mais repetitivas e trabalhosas.',
         TextProfile_extra_About: 'Meu diferencial é gostar muito de desafios novos, de estudar e estar sempre buscando conhecimento para me atualizar e melhorar minhas habilidades.',
         Achievement_01_About: 'Bacharelado em Jogos Digitais - PUC Minas',
 
@@ -81,8 +81,7 @@ const i18nTexts = {
         Description_MicheleAR_Projects: 'Jogo de memória em Realidade Aumentada utilizando Image Target.',
         Description_AtlasCNT_Projects: 'Visualizador de mapas em Realidade Aumentada, integrando tecnologias de Image Target e detecção de Ground Plane para uma experiência imersiva em atlas.',
         Description_Scafom_Projects: 'O Scafom Rux Dynamic é um simulador de montagem de andaimes em VR onde liderei toda a programação e arquitetura do sistema. Desenvolvi uma mecânica de encaixe precisa e intuitiva, estruturando a lógica via diagramas de classes para garantir escalabilidade. Um diferencial técnico foi o sistema de validação de segurança, que alerta sobre estruturas fora das normas. Para agilizar os testes, criei uma ferramenta personalizada no Unity Editor que permitia validar múltiplos cenários de montagem de forma rápida.',
-
-
+        Description_Nr35_Projects: 'Simulador de resgate em altura em realidade virtual.',
     },
     'en-US': {
         About_Header: 'About',
@@ -90,20 +89,21 @@ const i18nTexts = {
         Contact_Header: 'Contact',
 
         TextProfession_Intro: 'Unity Programmer',
-        TextPresentation_Intro: 'Hello, my name is Giovana Melo',
-        TextProfile_Intro: 'I have been a Unity developer for over 5 years, with experience in PC, Mobile, Web, XR, and AR games. I am mainly interested in developing tools and systems, always striving to achieve clean and scalable code.',
+        TextPresentation_Intro: "Hi, I'm Giovana Melo",
+        TextProfile_Intro: 'I have been a Unity developer for over 5 years, with experience in PC, Mobile, Web, XR, and AR games. I am mainly interested in developing tools and systems, always striving for clean and scalable code.',
         TextButtonCurriculum_Intro: 'Resume',
 
         Section_Project: 'Projects',
-        Description_Solis_Project: 'Solis is an exciting cooperative platform and puzzle game for two players.',
-        Description_Broccoli_Project: "Broccoli's Ascension is an adventure of a broccoli in its germination period.",
-        Description_BetweenDeath_Project: 'Dive into a universe where the line between life and death blurs, and uncover a world steeped in mystery and darkness.',
+        Description_Solis_Project: 'Solis is an exciting cooperative puzzle-platformer for two players.',
+        Description_Broccoli_Project: "Broccoli's Ascension is an adventure following a broccoli during its germination period.",
+        Description_BetweenDeath_Project: 'Explore a universe where the line between life and death thins, and discover a world shrouded in mystery and darkness.',
         Button_View_Project: 'View More',
 
         Section_About: 'About Me',
-        TextProfile_01_About: 'I have a degree in Digital Games from PUC Minas and since I was little I have been passionate about game creation, all the psychology involved, and artificial intelligence. I have worked on various types of games and projects, from prototyping to finalization, with greater experience in serious games and simulations. My focus is on programming gameplay systems and tools, with the aim of facilitating more repetitive and laborious tasks.',
-        TextProfile_extra_About: 'What sets me apart is that I really enjoy new challenges, studying, and constantly seeking knowledge to update myself and improve my skills.',
-        Achievement_01_About: 'Bachelor in Digital Games - PUC Minas',
+        TextProfile_01_About: 'I hold a degree in Digital Games from PUC Minas. Since I was young, I have been passionate about game creation, the psychology behind it, and artificial intelligence. I have worked on various types of games and projects, from prototyping to final release, with extensive experience in serious games and simulations. My focus is on programming gameplay systems and tools to streamline repetitive and labor-intensive tasks.',
+        TextProfile_extra_About: 'My key strength is my love for new challenges and my constant drive to study and stay up to date to improve my skills.',
+        Achievement_01_About: 'Bachelor of Digital Games - PUC Minas',
+
 
         Section_Experience: 'Experience',
 
@@ -111,7 +111,7 @@ const i18nTexts = {
         Title_01_Experience: 'Unity Developer',
         Company_01_Experience: 'RD3 Digital',
         Type_01_Experience: 'Full-time',
-        Dates_01_Experience: 'May 2024 - present',
+        Dates_01_Experience: 'May 2024 - Present',
         Location_01_Experience: 'Remote',
 
         // -- Experience 02 --
@@ -134,7 +134,8 @@ const i18nTexts = {
         Type_04_Experience: 'Internship',
         Dates_04_Experience: 'Mar 2021 - Sep 2022',
         Location_04_Experience: 'Belo Horizonte, Minas Gerais - Brazil',
-       
+        
+
         TitlePage_Contact: 'Contact',
         TitleForm_Contact: 'Get in Touch',
         NameForm_Contact: 'Name',
@@ -144,7 +145,7 @@ const i18nTexts = {
         ButtonSendForm_Contact: 'Send',
         ResponseSendForm_Contact: 'Message Sent',
         NameLogoContact: 'Giomelo',
-        TelephoneLogoContact: '+55 (31)98211-9063',
+        TelephoneLogoContact: '+55 (31) 98211-9063',
         CopyEmailContact: 'Copy Email',
 
         TitlePage_Footer: 'GIOMELO',
@@ -155,8 +156,17 @@ const i18nTexts = {
         TitlePage_ProjectsProfessional: 'Professional',
         TitlePage_ProjectsPersonal: 'Personal',
         Game_Projects: 'Projects',
-        GameText_Projects: 'Click on the projects to learn more',
+        GameText_Projects: 'Click on a project to learn more',
 
+        // Professional Projects
+        Description_TransitandoLegal_Projects: 'Educational Board Game: An interactive experience combining randomization and dynamic balancing systems with a series of integrated minigames focused on engagement and learning.',
+        Description_TimOrgulho_Projects: 'Game inspired by Flappy Bird mechanics, developed with single-player and multiplayer modes for a promotional campaign.',
+        Description_Bernoulli_Projects: '2D educational games developed for the Bernoulli Group, focused on playful learning and interactivity.',
+        Description_Belgo_Projects: 'Belgo Runner – An endless runner game developed for the brand.',
+        Description_MicheleAR_Projects: 'Augmented Reality memory game using Image Targets.',
+        Description_AtlasCNT_Projects: 'Augmented Reality map viewer, integrating Image Target and Ground Plane detection technologies for an immersive atlas experience.',
+        Description_Scafom_Projects: 'Scafom Rux Dynamic is a VR scaffolding assembly simulator where I led the entire programming and system architecture. I developed precise and intuitive snapping mechanics and structured the logic via class diagrams to ensure scalability. A technical highlight was the safety validation system, which alerts users about structures that do not meet regulations. To speed up testing, I created a custom tool in the Unity Editor to quickly validate multiple assembly scenarios.',
+        Description_Nr35_Projects: 'Virtual Reality simulator for high-altitude rescue training.'
     },
 };
   
