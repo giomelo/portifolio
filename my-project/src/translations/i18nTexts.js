@@ -74,12 +74,14 @@ const i18nTexts = {
         Game_Projects: 'Projetos',
         GameText_Projects: 'Clique no projeto para saber mais',
         // Projetos profissionais
-        Description_TransitandoLegal_Projects: 'Jogo de tabuleiro educativo para a BHTrans, com sistemas de randomização, balanceamento e diversos mini games.',
-        Description_TimOrgulho_Projects: 'Jogo estilo de flappy bird, single e multiplayer para campanha da TIM.',
-        Description_Bernoulli_Projects: 'Jogos educativos 2d para o bernouilli.',
-        Description_Belgo_Projects: 'Infinity runner para a empresa Belgo.',
-        Description_MicheleAR_Projects: 'Jogo de memorização em realidade aumentada image target.',
-        Description_AtlasCNT_Projects: 'Visualizador de mapas para atlas em realidade aumentada com image target e detecção em ground plane.',
+        Description_TransitandoLegal_Projects: 'Jogo de Tabuleiro Educativo: Uma experiência interativa que combina sistemas de randomização e balanceamento dinâmico a uma série de minijogos integrados, focados no engajamento e aprendizado.',
+        Description_TimOrgulho_Projects: 'Jogo inspirado na mecânica de Flappy Bird, desenvolvido com modos single player e multiplayer para campanha promocional.',
+        Description_Bernoulli_Projects: 'Jogos educativos 2D desenvolvidos para o Grupo Bernoulli, focados no aprendizado lúdico e interatividade.',
+        Description_Belgo_Projects: 'Runner Belgo – Jogo de corrida infinita desenvolvido para a marca',
+        Description_MicheleAR_Projects: 'Jogo de memória em Realidade Aumentada utilizando Image Target.',
+        Description_AtlasCNT_Projects: 'Visualizador de mapas em Realidade Aumentada, integrando tecnologias de Image Target e detecção de Ground Plane para uma experiência imersiva em atlas.',
+        Description_Scafom_Projects: 'O Scafom Rux Dynamic é um simulador de montagem de andaimes em VR onde liderei toda a programação e arquitetura do sistema. Desenvolvi uma mecânica de encaixe precisa e intuitiva, estruturando a lógica via diagramas de classes para garantir escalabilidade. Um diferencial técnico foi o sistema de validação de segurança, que alerta sobre estruturas fora das normas. Para agilizar os testes, criei uma ferramenta personalizada no Unity Editor que permitia validar múltiplos cenários de montagem de forma rápida.',
+
 
     },
     'en-US': {

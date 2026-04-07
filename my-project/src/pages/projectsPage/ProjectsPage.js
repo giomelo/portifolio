@@ -78,7 +78,7 @@ export const getAllProjectsData = (texts) => [
         gallery: [
             { type: 'video', url: 'https://drive.google.com/file/d/1Z6pFiXeMVlohOvQ4GYQybx4Pc2RFVMFl/view'},
         ],
-        description: '', tags: ['RV', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-virtual/', type: 'professional'
+        description: texts.Description_Scafom_Projects, tags: ['RV', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-virtual/', type: 'professional'
     },
 ];
 
