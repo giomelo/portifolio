@@ -73,6 +73,13 @@ const i18nTexts = {
         TitlePage_ProjectsPersonal: 'Pessoal',
         Game_Projects: 'Projetos',
         GameText_Projects: 'Clique no projeto para saber mais',
+        // Projetos profissionais
+        Description_TransitandoLegal_Projects: 'Jogo de tabuleiro educativo para a BHTrans, com sistemas de randomização, balanceamento e diversos mini games.',
+        Description_TimOrgulho_Projects: 'Jogo estilo de flappy bird, single e multiplayer para campanha da TIM.',
+        Description_Bernoulli_Projects: 'Jogos educativos 2d para o bernouilli.',
+        Description_Belgo_Projects: 'Infinity runner para a empresa Belgo.',
+        Description_MicheleAR_Projects: 'Jogo de memorização em realidade aumentada image target.',
+        Description_AtlasCNT_Projects: 'Visualizador de mapas para atlas em realidade aumentada com image target e detecção em ground plane.',
 
     },
     'en-US': {

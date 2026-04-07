@@ -138,7 +138,7 @@ body.body-no-scroll {
 }
 
 .modal-container {
-    background: #1d461d;
+    background: #5F8B36;
     color: #c7d5e0;
     width: 95%;
     height: 68%;
@@ -204,7 +204,7 @@ body.body-no-scroll {
 }
 
 .modal-project-title {
-    font-size: 2.2rem;
+    font-size: 2rem;
     margin: 5px 0 30px 0;
     color: #fff;
     text-align: center;
@@ -214,7 +214,7 @@ body.body-no-scroll {
     font-size: 1.1rem;
     line-height: 1.7;
     margin-bottom: 25px;
-    color: #acb2b8;
+    color: #e6e9ec;
     text-align: justify;
 }
 
@@ -225,8 +225,8 @@ body.body-no-scroll {
 }
 
 .modal-tag {
-    background: #48505e;
-    color: #ffffff;
+    background: #05120B;
+    color: #fff;
     padding: 5px 12px;
     border-radius: 2px;
     font-size: 0.9rem;
@@ -235,14 +235,13 @@ body.body-no-scroll {
 
 .modal-enterprise {
     margin-top: auto;
-    padding-top: 20px;
     font-size: 0.95rem;
     align-items: center;
     gap: 8px
 }
 
 .modal-project-enterprise {
-    color: #c2c1c1;
+    color: #dad9d9;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.2s ease;
@@ -326,11 +325,6 @@ body.body-no-scroll {
     pointer-events: none;
 }
 
-/* Telas entre 1300px e 1900px */
-@media (max-width: 1900px) and (min-width: 1301px) {
-
-}
-
 /* Telas entre 768px e 1300px*/
 @media (max-width: 1300px) and (min-width: 769px) {
     .header-link-projectsAll {
@@ -372,13 +366,197 @@ body.body-no-scroll {
         width: 300px;
         height: 420px;
     }
-}
 
-@media (max-width: 850px) {
-    .modal-content-wrapper {
-        flex-direction: column-reverse;
+    .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.623);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999999;
+    padding: 20px;
+    box-sizing: border-box;
     }
+
+    .professional-clickable {
+        cursor: pointer;
+        transition: transform 0.2s ease;
+    }
+
+    .professional-clickable:hover {
+        transform: scale(1.02);
+    }
+
     .modal-container {
-        max-height: 95vh;
+        width: 100%;
+        height: 75%;
+        max-height: 90vh; 
+        position: relative;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 50px rgba(0, 0, 0, 1);
+        overflow: hidden;
+    }
+
+    .modal-content-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto; 
+    }
+
+    .modal-left {
+        flex: 1;
+        min-width: auto;
+        padding: 20px 20px 10px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-right {
+        flex: 1.6;
+        min-width: auto;
+        background: #000;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        padding: 0px !important;
+    }
+
+    .modal-project-title {
+        font-size: 1.4rem;
+        margin: 5px 0 5px 0;
+        color: #fff;
+        text-align: center;
+    }
+
+    .modal-project-description {
+        font-size: 0.9rem;
+        line-height: 1.7;
+        margin-bottom: 15px;
+        color: #e6e9ec;
+        text-align: justify;
+    }
+
+    .modal-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .modal-tag {
+        background: #05120B;
+        color: #fff;
+        padding: 5px 12px;
+        border-radius: 2px;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+    }
+
+    .modal-enterprise {
+        margin-top: auto;
+        padding-top: 0px;
+        font-size: 0.95rem;
+        align-items: center;
+        gap: 8px
+    }
+
+    .modal-project-enterprise {
+        color: #dad9d9;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.2s ease;
+    }
+
+    .modal-enterprise img {
+        opacity: 0.8;
+        transition: opacity 0.2s;
+    }
+
+    .modal-enterprise:hover img {
+        opacity: 1;
+    }
+
+    .modal-project-enterprise:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .modal-video {
+        width: 100%;
+        height: 100%;
+        border: none;
+        object-fit: cover;
+    }
+
+    .modal-main-image {
+        width: auto;
+        height: 240px;
+        border: none;
+        object-fit: cover;
+    }
+
+    .steam-main-display {
+        flex: 1;
+        padding: 0rem 0.4rem 0rem 0.4rem;
+        width: auto;
+        background: #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .steam-thumbnail-strip {
+        display: flex;
+        gap: 10px;
+        padding: 15px;
+        background: #414141;
+        overflow-x: auto;
+        scrollbar-width: thin;
+    }
+
+    .steam-thumb-item {
+        width: 80px;
+        height: 75px;
+        min-width: 120px;
+        cursor: pointer;
+        position: relative;
+        border: 2px solid transparent;
+        transition: 0.2s;
+        opacity: 0.6;
+    }
+
+    .steam-thumb-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .steam-thumb-item.active {
+        border-color: #67c1f5;
+        opacity: 1;
+    }
+
+    .steam-thumb-item:hover {
+        opacity: 1;
+    }
+
+    .thumb-overlay {
+        position: absolute;
+        top: 0; left: 0; width: 100%; height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgba(0,0,0,0.2);
+        color: white;
+        font-size: 1.2rem;
+        pointer-events: none;
     }
 }

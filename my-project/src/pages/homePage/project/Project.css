@@ -219,7 +219,7 @@
         justify-content: center;
         align-items: stretch;
         flex-wrap: wrap;
-        gap: 1rem;
+        gap: 1.5rem;
         padding: 2rem 1rem;
         font-family: monospace;
     }
@@ -239,7 +239,8 @@
 
     .project-description {
         margin: 0;
-        font-size: 0.8rem;
+        font-size: 1rem;
+        hyphens: auto;
         line-height: 1.5;
         flex-grow: 1;
     }

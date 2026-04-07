@@ -214,9 +214,10 @@
     text-align: center;
 }
 
+    /* TELA MOBILE */
 @media (max-width: 768px) {
     .section-contact {
-        padding: 2rem 1.5rem;
+        padding: 1.6rem 1.5rem 2rem 1.5rem;
     }
     
     .panel-contact {
@@ -225,7 +226,7 @@
     }
     
     .left-contact {
-        margin-top: 20px;
+        margin-top: 8px;
     }
 
     .contact-form {
@@ -238,6 +239,7 @@
         border: solid 4px;
         margin-top: 20px;
         border-radius: 8px;
+        border-color: var(--color-secondary);
     }
 
     .title-form {

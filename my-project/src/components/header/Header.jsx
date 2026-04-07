@@ -14,10 +14,10 @@ const Header = () => {
     const currentPath = location.pathname.replace(/\/$/, "").toLowerCase();
     const isPortfolioPage = currentPath === '' || currentPath === '/' || currentPath === '/portifolio';
 
-    //Lida com resize da tela
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(window.innerWidth <= 768);
+            const mobileCheck = window.innerWidth <= 768;
+            setIsMobile(mobileCheck);
             if (window.innerWidth > 768) setMenuOpen(false);
         };
         window.addEventListener('resize', handleResize);
@@ -26,11 +26,17 @@ const Header = () => {
 
     useEffect(() => {
         const handleScroll = () => {
+
+            if (isMobile) {
+                if (scrolled) setScrolled(false);
+                return;
+            }
             setScrolled(window.scrollY > 50);
         };
+
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    }, [isMobile, scrolled]);
 
     const handleNavigation = (section) => {
         const pathCheck = window.location.pathname.replace(/\/$/, "").toLowerCase();
@@ -56,8 +62,14 @@ const Header = () => {
         }
     };
 
+    const headerClassName = `header ${
+        !isPortfolioPage 
+        ? 'header-solid' 
+        : (scrolled && !isMobile ? 'scrolled' : '')
+    }`;
+
     return (
-        <header className={`header ${!isPortfolioPage ? 'header-solid' : (scrolled ? 'scrolled' : '')}`}>
+        <header className={headerClassName}>
             <a href="/portifolio" className="header-logo">Portfolio</a>
 
             {isMobile ? (

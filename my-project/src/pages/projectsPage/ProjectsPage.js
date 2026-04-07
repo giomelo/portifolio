@@ -8,8 +8,8 @@ import Header from '../../components/header/Header';
 import Footer from "../../components/footer/Footer";
 import PixelArtScene from '../../components/wallpaper/PixelArtScene';
 import iconShare from '../../assets/icon/shared.svg'
-import TransitoLegalProject1 from '../../assets/img/project/transitoLegal/page1.webp';
-import TransitoLegalProject2 from '../../assets/img/project/transitoLegal/page2.webp';
+import TransitandoLegalProject1 from '../../assets/img/project/transitandoLegal/page1.webp';
+import TransitandoLegalProject2 from '../../assets/img/project/transitandoLegal/page2.webp';
 
 // Imagens dos projetos
 import imageBroccolis from '../../assets/img/project/BroccolisAscension.png';
@@ -19,13 +19,14 @@ import imageSolis from '../../assets/img/project/Solis.png';
 import imageTooMuchWork from '../../assets/img/project/TooMuchWork.png';
 import imageBetweenDeath from '../../assets/img/project/BetweenDeath.png';
 import imageOrgulhoNerd from '../../assets/img/project/diaOrgulho.webp';
-import imageTransitoLegal from '../../assets/img/project/transitolegal.webp';
+import imageTransitandoLegal from '../../assets/img/project/transitandolegal.webp';
 import imageBernoulli from '../../assets/img/project/bernoulli.png';
 import imageRunnerBelga from '../../assets/img/project/runnerBelga.webp';
 import imageMicheleAR from '../../assets/img/project/micheleAR.png';
 import imageAtlasCNT from '../../assets/img/project/atlasCNT.png';
+import imageScafom from '../../assets/img/project/scafom.png';
 
-const allProjectsData = [
+export const getAllProjectsData = (texts) => [
     // PROJETOS PESSOAIS
     { id: 1, path: 'https://giovana-melo.itch.io/brocolli', title: "Broccoli's Ascension", category: 'GAMinG Jam 2021', image: imageBroccolis, tags: ['Construct', 'Play in Browser', 'Pixel Art', 'Retro'], type: 'personal'},
     { id: 2, path: 'https://solis.buffbuffstudios.com/', title: "Solis", category: 'Buff Buff Studios', image: imageSolis, tags: ['Unity', 'Windows', 'Puzzle', 'Platformer'], type: 'personal'},
@@ -34,49 +35,56 @@ const allProjectsData = [
     { id: 5, path: 'https://giovana-melo.itch.io/monster-delivery', title: "Monster Delivery", category: 'Indie', image: imageMonsterDelivery, tags: ['Unity', 'Android', 'Runner Game', 'Action'], type: 'personal'},
     { id: 6, path: 'https://giovana-melo.itch.io/too-much-work-for-only-one-godess', title: "Too Much Work for Only One Goddess", category: 'Indie', image: imageTooMuchWork, tags: ['Construct', 'Play in Browser', 'Pixel Art', 'Simulator'], type: 'personal' },
     // PROJETOS PROFISSIONAIS
-    { id: 7, title: "Transitando Legal Digital", category: 'Aioros Studios', image: imageTransitoLegal, 
+    { id: 7, title: "Transitando Legal Digital", category: 'Aioros Studios', image: imageTransitandoLegal, 
         gallery: [
             { type: 'video', url: 'https://www.youtube.com/watch?v=paD3c_Oa-Yg'},
-            { type: 'image', url: TransitoLegalProject1 },
-            { type: 'image', url: TransitoLegalProject2 },
+            { type: 'image', url: TransitandoLegalProject1 },
+            { type: 'image', url: TransitandoLegalProject2 },
         ],
-        description: 'Descrição do projeto', tags: ['Unity', 'Andoid/IOS', 'Educational'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://play.google.com/store/apps/details?id=com.Aioros.TLDigital&hl=pt_BR', type: 'professional'
+        description: texts.Description_TransitandoLegal_Projects, tags: ['Unity', 'Andoid/IOS', 'Educational'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://play.google.com/store/apps/details?id=com.Aioros.TLDigital&hl=pt_BR', type: 'professional'
     },
     { id: 8, title: "TIM Dia do Orgulho Nerd", category: 'Aioros Studios', image: imageOrgulhoNerd, 
         gallery: [
             { type: 'video', url: 'https://drive.google.com/file/d/1bdJkud8-iZHSIhJ93q2FBxRi-6ZScyud/view'},
             { type: 'image', url: imageOrgulhoNerd },
         ],
-        description: 'Descrição do projeto', tags: ['Unity', 'Phygital'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://www.aioros.com.br/#Cases', type: 'professional'
+        description: texts.Description_TimOrgulho_Projects, tags: ['Unity', 'Phygital'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://www.aioros.com.br/#Cases', type: 'professional'
     },
     { id: 9, title: "Jogos Educativos Bernoulli", category: 'Aioros Studios', image: imageBernoulli, 
         gallery: [
             { type: 'video', url: 'https://drive.google.com/file/d/1hZLAMKMcvmLr7XEQFE2NqvefhXRpH4c9/view'},
         ],
-        description: 'Descrição do projeto', tags: ['Unity', 'PC', 'Educational'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://www.aioros.com.br/#Cases', type: 'professional'
+        description: texts.Description_Bernoulli_Projects, tags: ['Unity', 'PC', 'Educational'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://www.aioros.com.br/#Cases', type: 'professional'
     },
     { id: 10, title: "Runner Belgo", category: 'Aioros Studios', image: imageRunnerBelga, 
         gallery: [
             { type: 'video', url: 'https://drive.google.com/file/d/1CYQdO_3Yv0olGZF4Ym5YmLV3diOfYsqk/view'},
         ],
-        description: 'Descrição do projeto', tags: ['Unity', 'Phygital'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://www.aioros.com.br/#Cases', type: 'professional'
+        description: texts.Description_Belgo_Projects, tags: ['Unity', 'Phygital'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://www.aioros.com.br/#Cases', type: 'professional'
     },
     { id: 11, title: "Michele AR", category: 'Aioros Studios', image: imageMicheleAR, 
         gallery: [
             { type: 'video', url: 'https://drive.google.com/file/d/1wsdlUZPECxPCBlittkvNYs9paawAA3cq/view'},
         ],
-        description: 'Descrição do projeto', tags: ['Unity', 'Phygital'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://www.aioros.com.br/#Cases', type: 'professional'
+        description: texts.Description_MicheleAR_Projects, tags: ['Unity', 'Phygital'], nameEnterprise: 'Aioros Studios', linkEnterprise: 'https://www.aioros.com.br/#Cases', type: 'professional'
     },
     { id: 12, title: "Atlas CNT", category: 'RD3 Digital', image: imageAtlasCNT, 
         gallery: [
             { type: 'video', url: 'https://drive.google.com/file/d/1FnZvzpkiSfUBc5A73RCPHHIFy2Gx4zP_/view'},
         ],
-        description: 'Descrição do projeto', tags: ['RA', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-aumentada/', type: 'professional'
+        description: texts.Description_AtlasCNT_Projects, tags: ['RA', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-aumentada/', type: 'professional'
+    },
+    { id: 13, title: "Scafom", category: 'RD3 Digital', image: imageScafom, 
+        gallery: [
+            { type: 'video', url: 'https://drive.google.com/file/d/1Z6pFiXeMVlohOvQ4GYQybx4Pc2RFVMFl/view'},
+        ],
+        description: '', tags: ['RV', '3D', 'Educational'], nameEnterprise: 'RD3 Digital', linkEnterprise: 'https://rd3.digital/realidade-virtual/', type: 'professional'
     },
 ];
 
 const ProjectsPage = () => {
     const texts = useTexts();
+    const allProjectsData = getAllProjectsData(texts);
     const [selectedProject, setSelectedProject] = useState(null);
 
     useEffect(() => {
@@ -134,7 +142,7 @@ const ProjectsPage = () => {
                         <div className="modal-left">
                             <h2 className="modal-project-title">{selectedProject.title}</h2>
                             <p className="modal-project-description">
-                                {selectedProject.description || "Descrição em breve..."}
+                                {selectedProject.description || ""}
                             </p>
                             <div className="modal-tags">
                                 {selectedProject.tags.map(tag => (

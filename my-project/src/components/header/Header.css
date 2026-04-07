@@ -114,40 +114,21 @@
 }
 
 
-
-@media (max-width: 1300px) and (min-width: 769px) {
-    .header {
-        padding: 0 1.5rem;
-    }
-    .menu-toggle {
-        display: block;
-    }
-    .header-nav {
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 135px;
-        background-color: var(--background-secondary);
-        overflow: hidden;
-        opacity: 0;
-        transform: scaleY(0);
-        transform-origin: top;
-        transition: all 0.3s ease-in-out;
-    }
-    .header-nav.open {
-        opacity: 1;
-        transform: scaleY(1);
-    }
-}
-
+    /* TELA MOBILE */
 @media (max-width: 768px) {
     .header {
         padding: 0 1rem;
         background-color: var(--background-secondary) !important;
     }
+
+    .header-logo, .menu-toggle{
+        color: var(--font-header-mobile) !important;
+    }
+
     .menu-toggle {
         display: block;
     }
+
     .header-nav {
         position: absolute;
         top: 60px;
